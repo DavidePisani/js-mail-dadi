@@ -21,7 +21,11 @@ const pcNumber = Math.floor(Math.random() * 6) + 1;
 if(userNumber > pcNumber){
     alert('Hai vinto con il numero' + ' ' + userNumber )
 
-} else {
+} else if(userNumber === pcNumber){
+    alert('Parità!!')
+    
+}else{
     alert('Ha vinto il PC con il numero' + ' ' + pcNumber )
 }
+    
 
