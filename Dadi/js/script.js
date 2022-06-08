@@ -8,11 +8,14 @@
 alert('Stai per giocare al gioco dei dadi!!!')
 
 
-// generare 2 numeri random uno per il giocatore uno per il pc
+// genero 2 numeri random uno per il giocatore uno per il pc.
+
+// numero utente.
 const userNumber = Math.floor(Math.random() * 6) + 1;
-console.log(userNumber)
+
+// numero pc
 const pcNumber = Math.floor(Math.random() * 6) + 1;
-console.log(pcNumber)
+
 
 // stampo in pagina il vincitore
 if(userNumber > pcNumber){

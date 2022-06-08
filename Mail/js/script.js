@@ -3,13 +3,13 @@
 // controlla che sia nella lista di chi può accedere,
 // stampa un messaggio appropriato sull’esito del controllo.
 
-// arrey
-const emailList = [ 'pippo@mail.it', 'mario@mail.it', 'luca@mail.it', 'luigi@mail.it','lucia@mail.it', 'claudia@mail.it', 'davide@mail.it', ]; 
-
 // chiedo l'email all'uetnete
 const userEmail = prompt('Dimmi la tua email');
 
+// arrey
+const emailList = [ 'pippo@email.it', 'mario@email.it', 'luca@email.it', 'luigi@email.it','lucia@email.it', 'claudia@email.it', 'davide@email.it', ]; 
 
+// uso emailFound come seganlino  
 let emailFound = false;
 
 // scorro l'arrey
